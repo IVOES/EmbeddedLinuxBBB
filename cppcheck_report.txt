@@ -1,0 +1,161 @@
+Project_Src/4digitcount/src/4_digit_7seg.c:120:8: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+ len = snprintf(buf, sizeof(buf), "%d", gpio_num);
+       ^
+Project_Src/4digitcount/src/4_digit_7seg.c:136:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/direction", gpio_num);
+    ^
+Project_Src/4digitcount/src/4_digit_7seg.c:162:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/4digitcount/src/4_digit_7seg.c:188:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/4digitcount/src/4_digit_7seg.c:212:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/edge", gpio_num);
+    ^
+Project_Src/4digitcount/src/4_digit_7seg.c:233:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/4digitcount/src/4_digit_7seg.c:432:12: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+ uint32_t i=0,number=9999;
+           ^
+Project_Src/4digitcount/src/4_digit_7seg.c:454:12: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+ uint32_t i=0,number=0;
+           ^
+Project_Src/Drivers/gpio/gpio_driver.c:38:8: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+ len = snprintf(buf, sizeof(buf), "%d", gpio_num);
+       ^
+Project_Src/Drivers/gpio/gpio_driver.c:54:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/direction", gpio_num);
+    ^
+Project_Src/Drivers/gpio/gpio_driver.c:80:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/Drivers/gpio/gpio_driver.c:106:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/Drivers/gpio/gpio_driver.c:130:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/edge", gpio_num);
+    ^
+Project_Src/Drivers/gpio/gpio_driver.c:151:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/Drivers/lcd/lcd_driver.c:169:27: style: The scope of the variable 'letter' can be reduced. [variableScope]
+      uint32_t text_size, letter;
+                          ^
+Project_Src/Drivers/lcd/lcd_driver.c:189:3: error: va_list 'args' was opened but not closed by va_end(). [va_end_missing]
+  }
+  ^
+Project_Src/MPU6050_raw_read/mpu6050_rawread.c:204:15: style: Variable 'gyrox' is assigned a value that is never used. [unreadVariable]
+        gyrox = (double) gyro_value[0]/GYR_FS_SENSITIVITY_0;
+              ^
+Project_Src/MPU6050_raw_read/mpu6050_rawread.c:205:15: style: Variable 'gyroy' is assigned a value that is never used. [unreadVariable]
+        gyroy = (double) gyro_value[1]/GYR_FS_SENSITIVITY_0;
+              ^
+Project_Src/MPU6050_raw_read/mpu6050_rawread.c:206:15: style: Variable 'gyroz' is assigned a value that is never used. [unreadVariable]
+        gyroz = (double) gyro_value[2]/GYR_FS_SENSITIVITY_0;
+              ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:86:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/direction", gpio_num);
+    ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:112:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:138:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:162:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/edge", gpio_num);
+    ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:183:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:375:9: style: The scope of the variable 'readvalue' can be reduced. [variableScope]
+    int readvalue=0;
+        ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:376:13: style: The scope of the variable 'led_counter' can be reduced. [variableScope]
+    uint8_t led_counter;
+            ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:377:9: style: The scope of the variable 'gpio_fd' can be reduced. [variableScope]
+    int gpio_fd, timeout, rc;
+        ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:377:18: style: The scope of the variable 'timeout' can be reduced. [variableScope]
+    int gpio_fd, timeout, rc;
+                 ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:377:27: style: The scope of the variable 'rc' can be reduced. [variableScope]
+    int gpio_fd, timeout, rc;
+                          ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:379:13: style: The scope of the variable 'buf' can be reduced. [variableScope]
+    uint8_t buf[SOME_BYTES];
+            ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:381:9: style: The scope of the variable 'nfds' can be reduced. [variableScope]
+    int nfds = 2;
+        ^
+Project_Src/button_counter_7seg/src/button_counter_7seg.c:433:45: error: Uninitialized variable: led_counter [uninitvar]
+                Write_number_to_7segdisplay(led_counter);
+                                            ^
+Project_Src/counter_7seg/src/counter_7seg.c:84:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/direction", gpio_num);
+    ^
+Project_Src/counter_7seg/src/counter_7seg.c:110:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/counter_7seg/src/counter_7seg.c:136:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/counter_7seg/src/counter_7seg.c:160:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/edge", gpio_num);
+    ^
+Project_Src/counter_7seg/src/counter_7seg.c:181:5: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+    snprintf(buf, sizeof(buf), SYS_GPIO_PATH "/gpio%d/value", gpio_num);
+    ^
+Project_Src/counter_7seg/src/counter_7seg.c:361:13: style: The scope of the variable 'i' can be reduced. [variableScope]
+    uint8_t i =0;
+            ^
+Project_Src/counter_7seg/src/counter_7seg.c:389:9: style: The scope of the variable 'i' can be reduced. [variableScope]
+    int i=9;
+        ^
+Project_Src/counter_7seg/src/counter_7seg.c:361:15: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+    uint8_t i =0;
+              ^
+Project_Src/counter_7seg/src/counter_7seg.c:389:10: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+    int i=9;
+         ^
+Project_Src/lcd_news/src/lcd_news.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 69 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+Project_Src/lcd_news/src/curl/curl.h:888:9: error: syntax error [syntaxError]
+typedef enum {
+        ^
+Project_Src/lcd_news/src/lcd_news.c:127:11: style: Local variable 'k' shadows outer variable [shadowVariable]
+    int i,k=0;
+          ^
+Project_Src/lcd_news/src/lcd_news.c:276:5: note: Shadowed declaration
+int k=0;
+    ^
+Project_Src/lcd_news/src/lcd_news.c:127:11: note: Shadow variable
+    int i,k=0;
+          ^
+Project_Src/lcd_news/src/lcd_news.c:292:17: style: Variable 'cmd' is assigned a value that is never used. [unreadVariable]
+ uint8_t cnt,cmd=0;
+                ^
+Project_Src/lcd_text/src/lcd_text.c:206:9: warning:inconclusive: The buffer 'msg_buf' may not be null-terminated after the call to strncpy(). [terminateStrncpy]
+        strncpy(msg_buf,argv[1],32);
+        ^
+Project_Src/lcd_text/src/lcd_text.c:161:10: style: The scope of the variable 'msg_buf' can be reduced. [variableScope]
+    char msg_buf[16 * 2];
+         ^
+Project_Src/4digitcount/src/4_digit_7seg.c:245:0: style: The function 'gpio_file_close' is never used. [unusedFunction]
+
+^
+Project_Src/4digitcount/src/4_digit_7seg.c:228:0: style: The function 'gpio_file_open' is never used. [unusedFunction]
+
+^
+Project_Src/4digitcount/src/4_digit_7seg.c:182:0: style: The function 'gpio_read_value' is never used. [unusedFunction]
+
+^
+Project_Src/Drivers/lcd/lcd_driver.c:152:0: style: The function 'lcd_load_cgram' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
